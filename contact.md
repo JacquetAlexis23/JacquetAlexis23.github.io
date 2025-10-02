@@ -425,16 +425,18 @@ description: "Conéctate conmigo para oportunidades de colaboración, consultor�
 }
 
 .contact-description {
-  color: var(--text-secondary);
+  color: #374151;
   margin-bottom: 2rem;
   line-height: 1.6;
+  font-weight: 400;
 }
 
 .response-time {
   margin-top: 1rem;
   font-size: 0.9rem;
-  color: var(--text-secondary);
+  color: #374151;
   font-style: italic;
+  font-weight: 500;
 }
 
 .collaboration-info {

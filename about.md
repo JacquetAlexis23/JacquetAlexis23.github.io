@@ -430,8 +430,9 @@ description: "Conoce la trayectoria profesional de Alexis Jacquet, Data Scientis
 }
 
 .philosophy-card p {
-  color: var(--text-secondary);
+  color: #374151;
   line-height: 1.6;
+  font-weight: 400;
 }
 
 .expertise-sections {
@@ -466,8 +467,9 @@ description: "Conoce la trayectoria profesional de Alexis Jacquet, Data Scientis
 
 .expertise-description p {
   font-size: 1.1rem;
-  color: var(--text-secondary);
+  color: #374151;
   line-height: 1.6;
+  font-weight: 400;
 }
 
 .expertise-techniques h4,

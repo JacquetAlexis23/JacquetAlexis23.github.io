@@ -423,24 +423,24 @@ description: "Insights técnicos, metodologías y análisis profundos sobre Mach
   align-items: center;
   gap: 0.5rem;
   padding: 0.8rem 1.5rem;
-  background: var(--bg-white);
-  border: 2px solid var(--border-light);
+  background: white;
+  border: 2px solid #d1d5db;
   border-radius: 25px;
   cursor: pointer;
-  transition: var(--transition);
-  color: var(--text-primary);
+  transition: all 0.2s ease;
+  color: #1a202c;
   font-weight: 600;
   position: relative;
   z-index: 1;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .category-filter:hover,
 .category-filter.active {
   background: var(--primary-gradient);
   color: white;
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-sm);
   border-color: transparent;
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
 }
 
 .category-icon {
@@ -516,14 +516,16 @@ description: "Insights técnicos, metodologías y análisis profundos sobre Mach
   gap: 1rem;
   margin-bottom: 1rem;
   font-size: 0.9rem;
-  color: var(--text-secondary);
+  color: #374151;
+  font-weight: 500;
 }
 
 .post-category {
-  background: var(--bg-light);
+  background: #f3f4f6;
   padding: 0.2rem 0.6rem;
   border-radius: 10px;
   font-weight: 600;
+  color: #1f2937;
 }
 
 .post-card h3 {
@@ -534,9 +536,10 @@ description: "Insights técnicos, metodologías y análisis profundos sobre Mach
 }
 
 .post-excerpt {
-  color: var(--text-secondary);
+  color: #374151;
   line-height: 1.6;
   margin-bottom: 1.5rem;
+  font-weight: 400;
 }
 
 .post-tags {
@@ -559,9 +562,10 @@ description: "Insights técnicos, metodologías y análisis profundos sobre Mach
   display: flex;
   gap: 1.5rem;
   font-size: 0.9rem;
-  color: var(--text-secondary);
+  color: #374151;
   border-top: 1px solid var(--border-light);
   padding-top: 1rem;
+  font-weight: 500;
 }
 
 .series-grid {
@@ -598,9 +602,10 @@ description: "Insights técnicos, metodologías y análisis profundos sobre Mach
 }
 
 .series-description {
-  color: var(--text-secondary);
+  color: #374151;
   line-height: 1.6;
   margin-bottom: 1.5rem;
+  font-weight: 400;
 }
 
 .series-stats {

@@ -285,6 +285,8 @@ description: "Portafolio completo de proyectos de Machine Learning, Deep Learnin
   font-size: 1.2rem;
   margin-bottom: 2rem;
   line-height: 1.7;
+  color: rgba(255,255,255,0.95);
+  font-weight: 400;
 }
 
 .showcase-metrics {
