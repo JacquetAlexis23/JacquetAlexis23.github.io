@@ -14,15 +14,15 @@ description: "Portfolio profesional de Alexis Jacquet, especialista en Machine L
       
       <div class="hero-stats">
         <div class="stat-item">
-          <span class="stat-number">6+</span>
+          <span class="stat-number" style="color: white !important; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">6+</span>
           <span class="stat-label">Proyectos Completados</span>
         </div>
         <div class="stat-item">
-          <span class="stat-number">85%+</span>
+          <span class="stat-number" style="color: white !important; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">85%+</span>
           <span class="stat-label">Precisión Promedio</span>
         </div>
         <div class="stat-item">
-          <span class="stat-number">$2M+</span>
+          <span class="stat-number" style="color: white !important; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">$2M+</span>
           <span class="stat-label">ROI Generado</span>
         </div>
       </div>

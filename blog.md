@@ -15,15 +15,15 @@ description: "Insights técnicos, metodologías y análisis profundos sobre Mach
     
     <div class="hero-stats animate-slide-up">
       <div class="stat-item">
-        <div class="stat-number">25+</div>
+        <div class="stat-number" style="color: white !important; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">25+</div>
         <div class="stat-label">Artículos Técnicos</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">10K+</div>
+        <div class="stat-number" style="color: white !important; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">10K+</div>
         <div class="stat-label">Lectores Mensuales</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">5</div>
+        <div class="stat-number" style="color: white !important; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">5</div>
         <div class="stat-label">Series Especializadas</div>
       </div>
     </div>
