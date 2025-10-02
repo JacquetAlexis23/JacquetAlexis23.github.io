@@ -441,16 +441,19 @@ description: "Insights técnicos, metodologías y análisis profundos sobre Mach
   border-radius: 25px;
   cursor: pointer;
   transition: var(--transition);
-  color: var(--text-secondary);
+  color: var(--text-primary);
   font-weight: 600;
+  position: relative;
+  z-index: 1;
 }
 
 .category-filter:hover,
 .category-filter.active {
   background: var(--primary-gradient);
   color: white;
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+  border-color: transparent;
 }
 
 .category-icon {
@@ -474,7 +477,7 @@ description: "Insights técnicos, metodologías y análisis profundos sobre Mach
 }
 
 .post-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-lg);
 }
 
@@ -592,7 +595,7 @@ description: "Insights técnicos, metodologías y análisis profundos sobre Mach
 }
 
 .series-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-lg);
 }
 

@@ -7,7 +7,10 @@ description: "Conéctate conmigo para oportunidades de colaboración, consultor�
 <div class="bg-animation"></div>
 
 <section class="hero">
-  <div class="hero-content" style="grid-template-columns: 1fr; text-align: center;">
+  <div class="hero-content" style="grid-template-columns: .service-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+} text-align: center;">
     <div class="hero-text">
       <h1>¡Conectemos!</h1>
       <p class="subtitle">Estoy disponible para colaboraciones, consultoría y nuevas oportunidades en Data Science e IA</p>
@@ -266,7 +269,7 @@ description: "Conéctate conmigo para oportunidades de colaboración, consultor�
 }
 
 .intro-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-lg);
 }
 
@@ -317,12 +320,12 @@ description: "Conéctate conmigo para oportunidades de colaboración, consultor�
 }
 
 .service-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-xl);
 }
 
 .service-card.featured:hover {
-  transform: translateY(-5px) scale(1.02);
+  transform: translateY(-3px) scale(1.01);
 }
 
 .service-header {
@@ -411,7 +414,7 @@ description: "Conéctate conmigo para oportunidades de colaboración, consultor�
 }
 
 .contact-method:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-lg);
 }
 
@@ -491,7 +494,7 @@ description: "Conéctate conmigo para oportunidades de colaboración, consultor�
 
 .btn-white {
   background: white;
-  color: var(--primary-color);
+  color: var(--text-primary);
   border: 2px solid white;
   font-weight: 700;
   padding: 1rem 2.5rem;
@@ -499,9 +502,9 @@ description: "Conéctate conmigo para oportunidades de colaboración, consultor�
 }
 
 .btn-white:hover {
-  background: #f0f0f0;
-  color: var(--primary-color);
-  transform: translateY(-2px) scale(1.05);
+  background: #f7fafc;
+  color: var(--text-primary);
+  transform: translateY(-1px) scale(1.02);
 }
 
 .faq-section {
@@ -550,7 +553,7 @@ description: "Conéctate conmigo para oportunidades de colaboración, consultor�
   }
   
   .service-card.featured:hover {
-    transform: translateY(-5px);
+    transform: translateY(-3px);
   }
   
   .collab-benefits {

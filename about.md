@@ -375,7 +375,7 @@ description: "Conoce la trayectoria profesional de Alexis Jacquet, Data Scientis
 }
 
 .timeline-content:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-lg);
 }
 
@@ -427,7 +427,7 @@ description: "Conoce la trayectoria profesional de Alexis Jacquet, Data Scientis
 }
 
 .philosophy-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-lg);
 }
 

@@ -349,13 +349,15 @@ description: "Portafolio completo de proyectos de Machine Learning, Deep Learnin
 
 .btn-white {
   background: white;
-  color: var(--primary-color);
+  color: var(--text-primary);
   border: none;
+  font-weight: 600;
 }
 
 .btn-white:hover {
-  background: #f0f0f0;
-  color: var(--primary-color);
+  background: #f7fafc;
+  color: var(--text-primary);
+  transform: translateY(-1px);
 }
 
 .btn-outline-white {
