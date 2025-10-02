@@ -434,8 +434,17 @@ body {
 .stat-number {
   font-size: 2.5rem;
   font-weight: 700;
-  color: white;
+  color: white !important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Asegurar que las estadísticas del hero también sean blancas */
+.hero-stats .stat-number,
+.stat-item .stat-number {
+  color: white !important;
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* Contact Section */

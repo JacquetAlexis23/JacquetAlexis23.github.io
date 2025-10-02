@@ -673,6 +673,8 @@ description: "Insights técnicos, metodologías y análisis profundos sobre Mach
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
+  color: white !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .newsletter-stat .stat-label {
@@ -710,6 +712,24 @@ description: "Insights técnicos, metodologías y análisis profundos sobre Mach
     overflow-x: auto;
     padding-bottom: 1rem;
   }
+}
+
+/* Estilos específicos para las estadísticas del hero en el blog */
+.hero-stats .stat-number {
+  color: white !important;
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-stats .stat-item {
+  text-align: center;
+}
+
+.hero-stats .stat-label {
+  font-size: 0.9rem;
+  opacity: 0.95;
+  color: rgba(255, 255, 255, 0.9);
 }
 </style>
           Desglose técnico completo de mi implementación de CNN para análisis de sentimientos. 
