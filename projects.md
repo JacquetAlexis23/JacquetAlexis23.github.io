@@ -15,18 +15,6 @@ description: "Portafolio completo de proyectos de Machine Learning, Deep Learnin
   </div>
 </section>
 
-<nav class="nav">
-  <div class="nav-container">
-    <ul>
-      <li><a href="./">Inicio</a></li>
-      <li><a href="./about">Sobre Mí</a></li>
-      <li><a href="#featured">Destacados</a></li>
-      <li><a href="#all-projects">Todos</a></li>
-      <li><a href="./contact">Contacto</a></li>
-    </ul>
-  </div>
-</nav>
-
 <main class="container">
 
   <section id="featured" class="fade-in-scroll">
@@ -320,7 +308,7 @@ description: "Portafolio completo de proyectos de Machine Learning, Deep Learnin
 
 .metric-label {
   font-size: 0.9rem;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .showcase-tech {

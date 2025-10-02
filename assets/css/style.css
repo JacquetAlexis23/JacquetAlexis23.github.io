@@ -37,6 +37,7 @@ body {
   color: var(--text-primary);
   background: linear-gradient(to bottom, #f7fafc, #edf2f7);
   overflow-x: hidden;
+  padding-top: 80px;
 }
 
 /* Animated Background */
@@ -218,9 +219,10 @@ body {
 
 .section-header p {
   font-size: 1.1rem;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   max-width: 600px;
   margin: 0 auto;
+  font-weight: 500;
 }
 
 /* Cards */
@@ -806,17 +808,23 @@ li {
 .main-nav a {
   text-decoration: none;
   color: var(--text-primary);
-  font-weight: 500;
-  padding: 0.5rem 1rem;
+  font-weight: 600;
+  padding: 0.8rem 1.5rem;
   border-radius: var(--border-radius);
   transition: var(--transition);
   position: relative;
+  background: white;
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-sm);
 }
 
 .main-nav a:hover,
 .main-nav a.active {
-  color: var(--primary-color);
-  background: rgba(102, 126, 234, 0.1);
+  color: white;
+  background: var(--primary-gradient);
+  border-color: transparent;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
 }
 
 .mobile-menu-toggle {
@@ -924,7 +932,7 @@ li {
 
 .footer-bottom p {
   margin: 0.5rem 0;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255,255,255,0.9);
   font-size: 0.9rem;
 }
 

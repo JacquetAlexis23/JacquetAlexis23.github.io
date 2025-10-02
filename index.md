@@ -39,18 +39,6 @@ description: "Portfolio profesional de Alexis Jacquet, especialista en Machine L
   </div>
 </section>
 
-<nav class="nav">
-  <div class="nav-container">
-    <ul>
-      <li><a href="#about">Sobre Mí</a></li>
-      <li><a href="#projects">Proyectos</a></li>
-      <li><a href="#skills">Habilidades</a></li>
-      <li><a href="#contact">Contacto</a></li>
-      <li><a href="./blog">Blog</a></li>
-    </ul>
-  </div>
-</nav>
-
 <main class="container">
   
   <section id="about" class="fade-in-scroll">
@@ -373,7 +361,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 .stat-item .stat-label {
   font-size: 0.9rem;
-  opacity: 0.8;
+  opacity: 0.95;
 }
 
 .hero-buttons {

@@ -30,19 +30,6 @@ description: "Insights técnicos, metodologías y análisis profundos sobre Mach
   </div>
 </section>
 
-<nav class="nav">
-  <div class="nav-container">
-    <ul>
-      <li><a href="./">Inicio</a></li>
-      <li><a href="./projects">Proyectos</a></li>
-      <li><a href="./about">Sobre Mí</a></li>
-      <li><a href="#featured">Posts Destacados</a></li>
-      <li><a href="#series">Series</a></li>
-      <li><a href="./contact">Contacto</a></li>
-    </ul>
-  </div>
-</nav>
-
 <main class="container">
 
   <section class="blog-intro fade-in-scroll">
@@ -685,7 +672,7 @@ description: "Insights técnicos, metodologías y análisis profundos sobre Mach
 
 .newsletter-stat .stat-label {
   font-size: 0.9rem;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .newsletter-form {

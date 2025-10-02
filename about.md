@@ -19,19 +19,6 @@ description: "Conoce la trayectoria profesional de Alexis Jacquet, Data Scientis
   </div>
 </section>
 
-<nav class="nav">
-  <div class="nav-container">
-    <ul>
-      <li><a href="./">Inicio</a></li>
-      <li><a href="./projects">Proyectos</a></li>
-      <li><a href="#journey">Mi Historia</a></li>
-      <li><a href="#philosophy">Filosofía</a></li>
-      <li><a href="#expertise">Expertise</a></li>
-      <li><a href="./contact">Contacto</a></li>
-    </ul>
-  </div>
-</nav>
-
 <main class="container">
 
   <section id="intro" class="fade-in-scroll">
@@ -562,7 +549,7 @@ description: "Conoce la trayectoria profesional de Alexis Jacquet, Data Scientis
 }
 
 .value-text p {
-  opacity: 0.9;
+  opacity: 0.95;
   line-height: 1.5;
 }
 

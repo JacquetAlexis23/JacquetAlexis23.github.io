@@ -18,18 +18,6 @@ description: "Conéctate conmigo para oportunidades de colaboración, consultor�
   </div>
 </section>
 
-<nav class="nav">
-  <div class="nav-container">
-    <ul>
-      <li><a href="./">Inicio</a></li>
-      <li><a href="./projects">Proyectos</a></li>
-      <li><a href="./about">Sobre Mí</a></li>
-      <li><a href="#servicios">Servicios</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
-  </div>
-</nav>
-
 <main class="container">
 
   <section id="intro" class="fade-in-scroll">
@@ -445,7 +433,7 @@ description: "Conéctate conmigo para oportunidades de colaboración, consultor�
 .response-time {
   margin-top: 1rem;
   font-size: 0.9rem;
-  color: var(--text-light);
+  color: var(--text-secondary);
   font-style: italic;
 }
 
