@@ -1,0 +1,73 @@
+# Portfolio Personal - Data Scientist
+title: "Alexis Jacquet - Data Scientist"
+author: "Alexis Jacquet"
+email: "ajacquet.er@gmail.com"
+description: "Data Scientist especializado en Machine Learning, Deep Learning y soluciones de IA para negocios"
+baseurl: ""
+url: "https://JacquetAlexis23.github.io"
+linkedin_username: "alexis-jacquet"
+github_username: "JacquetAlexis23"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: "Inicio"
+    url: "/"
+  - title: "Sobre Mí"
+    url: "/about"
+  - title: "Proyectos"
+    url: "/projects"
+  - title: "Blog"
+    url: "/blog"
+  - title: "Contacto"
+    url: "/contact"
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Tu Nombre"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Analytics (opcional)
+google_analytics: "UA-XXXXXXXXX-X"
+
+# SEO
+lang: "es-ES"
+twitter:
+  username: "tu-usuario-twitter"
+  card: summary_large_image
+
+# Color scheme
+color_scheme: "dark"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
