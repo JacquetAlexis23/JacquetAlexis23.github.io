@@ -434,10 +434,8 @@ body {
 .stat-number {
   font-size: 2.5rem;
   font-weight: 700;
-  background: var(--primary-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Contact Section */
