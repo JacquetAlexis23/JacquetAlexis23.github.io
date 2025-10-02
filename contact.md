@@ -1,368 +1,564 @@
 ---
 layout: default
-title: "Contacto"
-permalink: /contact/
+title: "Contacto - Alexis Jacquet"
+description: "Conéctate conmigo para oportunidades de colaboración, consultoría en Data Science, Machine Learning y proyectos de IA."
 ---
 
-<div class="contact-hero">
-  <div class="container">
-    <h1>Conecta Conmigo</h1>
-    <p class="lead">
-      ¿Tienes un proyecto de Data Science en mente? ¿Necesitas consultoría en Machine Learning? 
-      ¿O simplemente quieres discutir sobre IA y tecnología? 
-      <br><strong>¡Me encantaría escucharte!</strong>
-    </p>
-  </div>
-</div>
+<div class="bg-animation"></div>
 
-<div class="contact-content">
-  <div class="container">
-    <div class="contact-grid">
-      
-      <!-- Información de Contacto -->
-      <div class="contact-info">
-        <h2>Información de Contacto</h2>
-        
-        <div class="contact-methods">
-          <div class="contact-method">
-            <div class="contact-icon">
-              <i class="fas fa-envelope"></i>
-            </div>
-            <div class="contact-details">
-              <h3>Email</h3>
-              <p>tu-email@gmail.com</p>
-              <small>Respuesta garantizada en 24 horas</small>
-            </div>
-          </div>
-          
-          <div class="contact-method">
-            <div class="contact-icon">
-              <i class="fab fa-linkedin"></i>
-            </div>
-            <div class="contact-details">
-              <h3>LinkedIn</h3>
-              <p><a href="https://linkedin.com/in/tu-perfil" target="_blank">linkedin.com/in/tu-perfil</a></p>
-              <small>Conectemos profesionalmente</small>
-            </div>
-          </div>
-          
-          <div class="contact-method">
-            <div class="contact-icon">
-              <i class="fab fa-github"></i>
-            </div>
-            <div class="contact-details">
-              <h3>GitHub</h3>
-              <p><a href="https://github.com/TuUsuario" target="_blank">github.com/TuUsuario</a></p>
-              <small>Explora mi código y proyectos</small>
-            </div>
-          </div>
-          
-          <div class="contact-method">
-            <div class="contact-icon">
-              <i class="fas fa-map-marker-alt"></i>
-            </div>
-            <div class="contact-details">
-              <h3>Ubicación</h3>
-              <p>Tu Ciudad, Tu País</p>
-              <small>Disponible para proyectos remotos</small>
-            </div>
-          </div>
-        </div>
-        
-        <div class="availability">
-          <h3>🕒 Disponibilidad</h3>
-          <div class="availability-grid">
-            <div class="availability-item">
-              <span class="status available"></span>
-              <span>Proyectos de Consultoría</span>
-            </div>
-            <div class="availability-item">
-              <span class="status available"></span>
-              <span>Colaboraciones Open Source</span>
-            </div>
-            <div class="availability-item">
-              <span class="status available"></span>
-              <span>Oportunidades Laborales</span>
-            </div>
-            <div class="availability-item">
-              <span class="status limited"></span>
-              <span>Proyectos Freelance (Limitado)</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Formulario de Contacto -->
-      <div class="contact-form-section">
-        <h2>Envíame un Mensaje</h2>
-        
-        <form class="contact-form" id="contactForm">
-          <div class="form-group">
-            <label for="name">Nombre *</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          
-          <div class="form-group">
-            <label for="email">Email *</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          
-          <div class="form-group">
-            <label for="company">Empresa / Organización</label>
-            <input type="text" id="company" name="company">
-          </div>
-          
-          <div class="form-group">
-            <label for="subject">Tipo de Proyecto *</label>
-            <select id="subject" name="subject" required>
-              <option value="">Selecciona una opción</option>
-              <option value="consultation">Consultoría en Data Science</option>
-              <option value="ml-project">Proyecto de Machine Learning</option>
-              <option value="analytics">Business Analytics</option>
-              <option value="collaboration">Colaboración / Partnership</option>
-              <option value="job-opportunity">Oportunidad Laboral</option>
-              <option value="other">Otro</option>
-            </select>
-          </div>
-          
-          <div class="form-group">
-            <label for="budget">Presupuesto Estimado</label>
-            <select id="budget" name="budget">
-              <option value="">Selecciona un rango</option>
-              <option value="under-5k">Menos de $5,000</option>
-              <option value="5k-15k">$5,000 - $15,000</option>
-              <option value="15k-50k">$15,000 - $50,000</option>
-              <option value="50k-plus">Más de $50,000</option>
-              <option value="negotiable">A negociar</option>
-            </select>
-          </div>
-          
-          <div class="form-group">
-            <label for="timeline">Timeline del Proyecto</label>
-            <select id="timeline" name="timeline">
-              <option value="">Selecciona un timeline</option>
-              <option value="asap">Lo antes posible</option>
-              <option value="1-month">1 mes</option>
-              <option value="2-3-months">2-3 meses</option>
-              <option value="3-6-months">3-6 meses</option>
-              <option value="6-plus-months">Más de 6 meses</option>
-              <option value="flexible">Flexible</option>
-            </select>
-          </div>
-          
-          <div class="form-group">
-            <label for="message">Descripción del Proyecto *</label>
-            <textarea id="message" name="message" rows="6" required 
-                      placeholder="Describe tu proyecto, objetivos, datos disponibles, y cualquier información relevante que me ayude a entender mejor tus necesidades."></textarea>
-          </div>
-          
-          <div class="form-group">
-            <label class="checkbox-label">
-              <input type="checkbox" id="newsletter" name="newsletter">
-              <span class="checkmark"></span>
-              Quiero recibir actualizaciones sobre nuevos artículos y proyectos
-            </label>
-          </div>
-          
-          <button type="submit" class="btn btn-primary submit-btn">
-            <i class="fas fa-paper-plane"></i>
-            Enviar Mensaje
-          </button>
-        </form>
-      </div>
-      
+<section class="hero">
+  <div class="hero-content" style="grid-template-columns: 1fr; text-align: center;">
+    <div class="hero-text">
+      <h1>¡Conectemos!</h1>
+      <p class="subtitle">Estoy disponible para colaboraciones, consultoría y nuevas oportunidades en Data Science e IA</p>
     </div>
   </div>
-</div>
+</section>
 
-<div class="services-section">
-  <div class="container">
-    <h2>¿En qué puedo ayudarte?</h2>
+<nav class="nav">
+  <div class="nav-container">
+    <ul>
+      <li><a href="./">Inicio</a></li>
+      <li><a href="./projects">Proyectos</a></li>
+      <li><a href="./about">Sobre Mí</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="container">
+
+  <section id="intro" class="fade-in-scroll">
+    <div class="section-header">
+      <h2>¿Tienes un Proyecto Desafiante?</h2>
+      <p>Transformemos juntos tus datos en ventaja competitiva mediante soluciones innovadoras de Machine Learning e IA.</p>
+    </div>
+    
+    <div class="contact-intro-grid">
+      <div class="intro-card">
+        <div class="intro-icon">🚀</div>
+        <h3>Proyectos Innovadores</h3>
+        <p>Desarrollo soluciones de IA desde el concepto hasta la implementación, con foco en ROI y resultados medibles.</p>
+      </div>
+      
+      <div class="intro-card">
+        <div class="intro-icon">📊</div>
+        <h3>Consultoría Especializada</h3>
+        <p>Asesoramiento técnico en Machine Learning, arquitecturas de datos y estrategias de IA para tu empresa.</p>
+      </div>
+      
+      <div class="intro-card">
+        <div class="intro-icon">🎯</div>
+        <h3>Resultados Garantizados</h3>
+        <p>Metodología probada con más de $2M en ROI generado y 85%+ de precisión promedio en proyectos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="fade-in-scroll">
+    <div class="section-header">
+      <h2>Servicios Profesionales</h2>
+      <p>Soluciones completas de Data Science adaptadas a las necesidades específicas de tu negocio.</p>
+    </div>
     
     <div class="services-grid">
-      <div class="service-card">
-        <div class="service-icon">
-          <i class="fas fa-brain"></i>
-        </div>
-        <h3>Machine Learning Consulting</h3>
-        <p>
-          Desarrollo de modelos predictivos, sistemas de recomendación, 
-          y soluciones de ML end-to-end adaptadas a tu negocio.
-        </p>
-        <ul>
-          <li>Análisis de viabilidad técnica</li>
-          <li>Arquitectura de soluciones ML</li>
-          <li>Implementación y deployment</li>
-          <li>Optimización de performance</li>
-        </ul>
-      </div>
       
       <div class="service-card">
-        <div class="service-icon">
-          <i class="fas fa-chart-line"></i>
+        <div class="service-header">
+          <div class="service-icon">🧠</div>
+          <h3>Machine Learning & IA</h3>
         </div>
-        <h3>Business Analytics</h3>
-        <p>
-          Transformo tus datos en insights accionables que impulsen 
-          decisiones estratégicas y generen valor empresarial medible.
-        </p>
-        <ul>
-          <li>Análisis exploratorio de datos</li>
-          <li>Dashboards interactivos</li>
-          <li>KPIs y métricas de negocio</li>
-          <li>Reportes ejecutivos</li>
-        </ul>
-      </div>
-      
-      <div class="service-card">
-        <div class="service-icon">
-          <i class="fas fa-eye"></i>
+        <div class="service-content">
+          <ul>
+            <li><strong>Modelos Predictivos:</strong> Clasificación, regresión y forecasting</li>
+            <li><strong>Deep Learning:</strong> CNN, RNN, Transformers personalizados</li>
+            <li><strong>Computer Vision:</strong> Análisis de imágenes y reconocimiento</li>
+            <li><strong>NLP:</strong> Procesamiento de lenguaje natural y chatbots</li>
+            <li><strong>Recommender Systems:</strong> Sistemas de recomendación avanzados</li>
+          </ul>
+          <div class="service-pricing">
+            <span class="price-label">Desde</span>
+            <span class="price">$2,500</span>
+            <span class="price-period">por proyecto</span>
+          </div>
         </div>
-        <h3>Computer Vision</h3>
-        <p>
-          Soluciones de visión artificial para automatización de procesos, 
-          control de calidad, y análisis de imágenes en tiempo real.
-        </p>
-        <ul>
-          <li>Detección y clasificación de objetos</li>
-          <li>Control de calidad automatizado</li>
-          <li>Análisis de imágenes médicas</li>
-          <li>Sistemas de vigilancia inteligente</li>
-        </ul>
       </div>
-      
-      <div class="service-card">
-        <div class="service-icon">
-          <i class="fas fa-comments"></i>
-        </div>
-        <h3>Natural Language Processing</h3>
-        <p>
-          Procesamiento de texto avanzado para análisis de sentimientos, 
-          chatbots, traducción automática y extracción de información.
-        </p>
-        <ul>
-          <li>Análisis de sentimientos</li>
-          <li>Chatbots y asistentes virtuales</li>
-          <li>Traducción automática</li>
-          <li>Clasificación de documentos</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="testimonials-section">
-  <div class="container">
-    <h2>Lo que dicen mis colaboradores</h2>
+      <div class="service-card featured">
+        <div class="featured-badge">⭐ MÁS POPULAR</div>
+        <div class="service-header">
+          <div class="service-icon">📈</div>
+          <h3>Data Science End-to-End</h3>
+        </div>
+        <div class="service-content">
+          <ul>
+            <li><strong>Análisis Exploratorio:</strong> EDA completo con insights accionables</li>
+            <li><strong>Pipeline Completo:</strong> Desde datos crudos hasta producción</li>
+            <li><strong>Dashboards Interactivos:</strong> Visualizaciones y KPIs ejecutivos</li>
+            <li><strong>Automatización:</strong> Procesos ML automatizados</li>
+            <li><strong>Documentación:</strong> Entregables empresariales completos</li>
+          </ul>
+          <div class="service-pricing">
+            <span class="price-label">Desde</span>
+            <span class="price">$5,000</span>
+            <span class="price-period">por proyecto</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-header">
+          <div class="service-icon">🎓</div>
+          <h3>Consultoría & Formación</h3>
+        </div>
+        <div class="service-content">
+          <ul>
+            <li><strong>Auditoría de Modelos:</strong> Evaluación de sistemas existentes</li>
+            <li><strong>Estrategia de IA:</strong> Roadmap tecnológico empresarial</li>
+            <li><strong>Capacitación Técnica:</strong> Workshops y training personalizado</li>
+            <li><strong>Code Review:</strong> Optimización de código y arquitectura</li>
+            <li><strong>Mentoría:</strong> Acompañamiento de equipos técnicos</li>
+          </ul>
+          <div class="service-pricing">
+            <span class="price-label">Desde</span>
+            <span class="price">$150</span>
+            <span class="price-period">por hora</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contacto" class="fade-in-scroll">
+    <div class="section-header">
+      <h2>Información de Contacto</h2>
+      <p>Elige la forma que prefieras para iniciar nuestra conversación sobre tu proyecto.</p>
+    </div>
     
-    <div class="testimonials-grid">
-      <div class="testimonial-card">
-        <div class="testimonial-content">
-          <p>
-            "Excelente trabajo en nuestro proyecto de análisis de sentimientos. 
-            La solución implementada superó nuestras expectativas en precisión 
-            y velocidad de procesamiento."
-          </p>
-        </div>
-        <div class="testimonial-author">
-          <img src="/assets/testimonials/client1.jpg" alt="Cliente 1">
-          <div class="author-info">
-            <h4>Ana García</h4>
-            <span>CTO, TechCorp</span>
-          </div>
-        </div>
+    <div class="contact-methods-grid">
+      
+      <div class="contact-method primary">
+        <div class="contact-icon">📧</div>
+        <h3>Email Principal</h3>
+        <p class="contact-detail">ajacquet.er@gmail.com</p>
+        <p class="contact-description">Para consultas detalladas, propuestas de proyecto y colaboraciones profesionales.</p>
+        <a href="mailto:ajacquet.er@gmail.com?subject=Consulta%20Proyecto%20Data%20Science&body=Hola%20Alexis,%0A%0AMe%20gustaría%20discutir%20un%20proyecto%20de%20Data%20Science.%0A%0ADetalles%20del%20proyecto:%0A-%20%0A-%20%0A-%20%0A%0AGracias!" class="btn">Enviar Email</a>
+        <div class="response-time">⏱️ Respuesta en 24 horas</div>
       </div>
       
-      <div class="testimonial-card">
-        <div class="testimonial-content">
-          <p>
-            "Su enfoque en generar valor de negocio real, no solo métricas técnicas, 
-            fue clave para el éxito de nuestro proyecto de segmentación de clientes. 
-            ROI del 300% en el primer año."
-          </p>
-        </div>
-        <div class="testimonial-author">
-          <img src="/assets/testimonials/client2.jpg" alt="Cliente 2">
-          <div class="author-info">
-            <h4>Carlos Mendoza</h4>
-            <span>Director de Marketing, RetailPlus</span>
-          </div>
-        </div>
+      <div class="contact-method">
+        <div class="contact-icon">💼</div>
+        <h3>LinkedIn</h3>
+        <p class="contact-detail">linkedin.com/in/alexis-jacquet</p>
+        <p class="contact-description">Conectemos profesionalmente para networking y oportunidades laborales.</p>
+        <a href="https://www.linkedin.com/in/alexis-jacquet" class="btn btn-outline" target="_blank">Conectar</a>
+        <div class="response-time">📱 Activo diariamente</div>
       </div>
       
-      <div class="testimonial-card">
-        <div class="testimonial-content">
-          <p>
-            "Profesional, puntual y con gran capacidad para explicar conceptos 
-            complejos de manera clara. Definitivamente recomendaría sus servicios 
-            para cualquier proyecto de ML."
-          </p>
-        </div>
-        <div class="testimonial-author">
-          <img src="/assets/testimonials/client3.jpg" alt="Cliente 3">
-          <div class="author-info">
-            <h4>María López</h4>
-            <span>VP of Operations, InnovateLab</span>
+      <div class="contact-method">
+        <div class="contact-icon">🚀</div>
+        <h3>GitHub</h3>
+        <p class="contact-detail">github.com/JacquetAlexis23</p>
+        <p class="contact-description">Explora mi código, contribuciones y proyectos open source.</p>
+        <a href="https://github.com/JacquetAlexis23" class="btn btn-outline" target="_blank">Ver Repositorios</a>
+        <div class="response-time">🔄 Commits semanales</div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="collaboration-info fade-in-scroll">
+    <div class="card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white;">
+      <div class="collab-content">
+        <h2>💡 ¿Listo para Transformar tus Datos?</h2>
+        <p class="collab-description">
+          Con más de <strong>6 proyectos exitosos</strong> y <strong>$2M+ en ROI generado</strong>, 
+          estoy preparado para llevar tu negocio al siguiente nivel mediante soluciones de IA innovadoras.
+        </p>
+        
+        <div class="collab-benefits">
+          <div class="benefit">
+            <span class="benefit-icon">⚡</span>
+            <span class="benefit-text">Desarrollo Ágil</span>
           </div>
+          <div class="benefit">
+            <span class="benefit-icon">📊</span>
+            <span class="benefit-text">ROI Medible</span>
+          </div>
+          <div class="benefit">
+            <span class="benefit-icon">🔧</span>
+            <span class="benefit-text">Código Productivo</span>
+          </div>
+          <div class="benefit">
+            <span class="benefit-icon">📈</span>
+            <span class="benefit-text">Resultados Escalables</span>
+          </div>
+        </div>
+        
+        <div class="collab-cta">
+          <a href="mailto:ajacquet.er@gmail.com?subject=Proyecto%20Urgente%20-%20Data%20Science&body=Hola%20Alexis,%0A%0ATengo%20un%20proyecto%20que%20creo%20se%20alinea%20perfectamente%20con%20tu%20expertise.%0A%0ADetalles:%0A-%20Industria:%20%0A-%20Tipo%20de%20proyecto:%20%0A-%20Timeline:%20%0A-%20Presupuesto%20aproximado:%20%0A%0A¿Podríamos%20agendar%20una%20llamada%20esta%20semana?%0A%0ASaludos!" class="btn btn-white">Iniciar Proyecto Ahora</a>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </section>
 
-<div class="response-time">
-  <div class="container">
-    <div class="response-card">
-      <h3>⚡ Tiempo de Respuesta Garantizado</h3>
-      <p>
-        Me comprometo a responder todos los mensajes dentro de <strong>24 horas</strong>. 
-        Para proyectos urgentes, contáctame directamente por LinkedIn.
-      </p>
-      <div class="response-stats">
-        <div class="stat">
-          <span class="stat-number">< 4h</span>
-          <span class="stat-label">Respuesta Promedio</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number">98%</span>
-          <span class="stat-label">Satisfacción Cliente</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number">50+</span>
-          <span class="stat-label">Proyectos Completados</span>
-        </div>
-      </div>
+  <section class="faq-section fade-in-scroll">
+    <div class="section-header">
+      <h2>Preguntas Frecuentes</h2>
+      <p>Respuestas a las consultas más comunes sobre mis servicios y metodología de trabajo.</p>
     </div>
-  </div>
-</div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('contactForm');
     
-    form.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        // Simular envío del formulario
-        const submitBtn = form.querySelector('.submit-btn');
-        const originalText = submitBtn.innerHTML;
-        
-        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Enviando...';
-        submitBtn.disabled = true;
-        
-        setTimeout(function() {
-            submitBtn.innerHTML = '<i class="fas fa-check"></i> ¡Mensaje Enviado!';
-            submitBtn.classList.add('success');
-            
-            setTimeout(function() {
-                submitBtn.innerHTML = originalText;
-                submitBtn.disabled = false;
-                submitBtn.classList.remove('success');
-                form.reset();
-                
-                alert('¡Gracias por tu mensaje! Te responderé dentro de 24 horas.');
-            }, 2000);
-        }, 1500);
-    });
-});
-</script>
+    <div class="faq-grid">
+      
+      <div class="faq-item">
+        <h3>⏱️ ¿Cuál es el tiempo típico de entrega?</h3>
+        <p>Los proyectos varían según complejidad: MVPs en 2-4 semanas, proyectos completos en 2-3 meses. Siempre proporciono entregas parciales semanales para mantener transparencia.</p>
+      </div>
+      
+      <div class="faq-item">
+        <h3>💰 ¿Cómo estructuras los precios?</h3>
+        <p>Ofrezco presupuestos fijos por proyecto basados en scope definido, o tarifas por hora para consultoría. Siempre incluyo estimación de ROI esperado en la propuesta.</p>
+      </div>
+      
+      <div class="faq-item">
+        <h3>🔄 ¿Ofreces soporte post-implementación?</h3>
+        <p>Sí, incluyo 30 días de soporte gratuito post-entrega. También ofrezco contratos de mantenimiento mensual para monitoreo y optimización continua.</p>
+      </div>
+      
+      <div class="faq-item">
+        <h3>📊 ¿Trabajas con qué tipos de datos?</h3>
+        <p>Manejo todo tipo de datos: estructurados (SQL), no estructurados (texto, imágenes), APIs, streaming data, y big data. Experto en limpieza y preprocessing complejos.</p>
+      </div>
+      
+      <div class="faq-item">
+        <h3>🛡️ ¿Cómo garantizas la confidencialidad?</h3>
+        <p>Firmo NDAs estrictos, uso entornos seguros para desarrollo, y puedo trabajar con tus propios servidores. Todos los datos se manejan bajo protocolos de seguridad empresarial.</p>
+      </div>
+      
+      <div class="faq-item">
+        <h3>🌍 ¿Trabajas con clientes internacionales?</h3>
+        <p>Absolutamente. Trabajo en español e inglés, con experiencia en proyectos para LATAM, Europa y Norteamérica. Adaptable a diferentes zonas horarias.</p>
+      </div>
+      
+    </div>
+  </section>
+
+</main>
+
+<style>
+.contact-intro-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.intro-card {
+  background: var(--bg-white);
+  padding: 2.5rem;
+  border-radius: var(--border-radius-lg);
+  text-align: center;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-light);
+  transition: var(--transition);
+}
+
+.intro-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.intro-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.intro-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.service-card {
+  background: var(--bg-white);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-light);
+  transition: var(--transition);
+  position: relative;
+}
+
+.service-card.featured {
+  border: 2px solid var(--accent-color);
+  transform: scale(1.02);
+}
+
+.featured-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--secondary-gradient);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  z-index: 10;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+}
+
+.service-card.featured:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+.service-header {
+  background: var(--primary-gradient);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.service-header h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.service-content {
+  padding: 2rem;
+}
+
+.service-content ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.service-content li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border-light);
+  line-height: 1.6;
+}
+
+.service-content li:last-child {
+  border-bottom: none;
+}
+
+.service-pricing {
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--bg-light);
+  border-radius: var(--border-radius);
+  margin-top: 1rem;
+}
+
+.price-label {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  display: block;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  display: block;
+}
+
+.price-period {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.contact-methods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.contact-method {
+  background: var(--bg-white);
+  padding: 2.5rem;
+  border-radius: var(--border-radius-lg);
+  text-align: center;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-light);
+  transition: var(--transition);
+}
+
+.contact-method.primary {
+  border: 2px solid var(--primary-color);
+  background: linear-gradient(135deg, var(--bg-white), #f7fafc);
+}
+
+.contact-method:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.contact-method .contact-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-method h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.contact-detail {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-description {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.response-time {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+.collaboration-info {
+  margin: 4rem 0;
+}
+
+.collab-content {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.collab-description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.7;
+}
+
+.collab-benefits {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.benefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.benefit-icon {
+  font-size: 2rem;
+}
+
+.benefit-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.collab-cta {
+  margin-top: 2rem;
+}
+
+.btn-white {
+  background: white;
+  color: var(--primary-color);
+  border: 2px solid white;
+  font-weight: 700;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+}
+
+.btn-white:hover {
+  background: #f0f0f0;
+  color: var(--primary-color);
+  transform: translateY(-2px) scale(1.05);
+}
+
+.faq-section {
+  margin-top: 4rem;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.faq-item {
+  background: var(--bg-white);
+  padding: 2rem;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-light);
+  transition: var(--transition);
+}
+
+.faq-item:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.faq-item h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.faq-item p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .contact-intro-grid, .services-grid, .contact-methods-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .service-card.featured {
+    transform: none;
+  }
+  
+  .service-card.featured:hover {
+    transform: translateY(-5px);
+  }
+  
+  .collab-benefits {
+    gap: 1rem;
+  }
+  
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>

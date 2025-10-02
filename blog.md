@@ -1,53 +1,722 @@
 ---
 layout: default
-title: "Blog Técnico"
-permalink: /blog/
+title: "Blog Técnico - Alexis Jacquet"
+description: "Insights técnicos, metodologías y análisis profundos sobre Machine Learning, Deep Learning y Data Science aplicado a negocios."
 ---
 
-<div class="blog-hero">
-  <div class="container">
-    <h1>Blog Técnico</h1>
-    <p class="lead">
-      Artículos sobre Machine Learning, Data Science y tecnologías emergentes. 
-      Comparto experiencias, tutoriales y análisis profundos de proyectos reales.
-    </p>
-  </div>
-</div>
+<div class="bg-animation"></div>
 
-<div class="blog-categories">
-  <div class="container">
-    <div class="categories-list">
-      <a href="#" class="category-tag active" data-category="all">Todos</a>
-      <a href="#" class="category-tag" data-category="machine-learning">Machine Learning</a>
-      <a href="#" class="category-tag" data-category="deep-learning">Deep Learning</a>
-      <a href="#" class="category-tag" data-category="business">Business Analytics</a>
-      <a href="#" class="category-tag" data-category="tutorials">Tutoriales</a>
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text animate-slide-left">
+      <h1>Blog Técnico</h1>
+      <p class="subtitle">Insights, metodologías y lecciones aprendidas del mundo real de Data Science</p>
+    </div>
+    
+    <div class="hero-stats animate-slide-up">
+      <div class="stat-item">
+        <div class="stat-number">25+</div>
+        <div class="stat-label">Artículos Técnicos</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">10K+</div>
+        <div class="stat-label">Lectores Mensuales</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">5</div>
+        <div class="stat-label">Series Especializadas</div>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
-<div class="blog-posts">
-  <div class="container">
+<nav class="nav">
+  <div class="nav-container">
+    <ul>
+      <li><a href="./">Inicio</a></li>
+      <li><a href="./projects">Proyectos</a></li>
+      <li><a href="./about">Sobre Mí</a></li>
+      <li><a href="#featured">Posts Destacados</a></li>
+      <li><a href="#series">Series</a></li>
+      <li><a href="./contact">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="container">
+
+  <section class="blog-intro fade-in-scroll">
+    <div class="section-header">
+      <h2>Conocimiento Aplicado y Documentado</h2>
+      <p>Cada artículo surge de proyectos reales, con código verificado y resultados medibles.</p>
+    </div>
     
-    <!-- Post destacado -->
-    <article class="post-card featured" data-category="deep-learning">
-      <div class="post-image">
-        <img src="/assets/blog/sentiment-analysis-deep-dive.jpg" alt="Análisis profundo CNN">
-        <div class="post-overlay">
-          <span class="featured-badge">🔥 Post Destacado</span>
+    <div class="blog-categories">
+      <div class="category-filter active" data-category="all">
+        <span class="category-icon">📊</span>
+        <span>Todos los Posts</span>
+      </div>
+      <div class="category-filter" data-category="deep-learning">
+        <span class="category-icon">🧠</span>
+        <span>Deep Learning</span>
+      </div>
+      <div class="category-filter" data-category="business">
+        <span class="category-icon">📈</span>
+        <span>Business Analytics</span>
+      </div>
+      <div class="category-filter" data-category="mlops">
+        <span class="category-icon">⚙️</span>
+        <span>MLOps</span>
+      </div>
+      <div class="category-filter" data-category="tutorials">
+        <span class="category-icon">🎓</span>
+        <span>Tutoriales</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="featured" class="blog-posts fade-in-scroll">
+    <div class="section-header">
+      <h2>🔥 Posts Destacados</h2>
+      <p>Los artículos más populares y técnicamente profundos de la colección.</p>
+    </div>
+    
+    <div class="posts-featured">
+      
+      <article class="post-card featured" data-category="deep-learning">
+        <div class="post-image">
+          <div class="post-placeholder" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+            <div class="post-icon">🧠</div>
+          </div>
+          <div class="post-overlay">
+            <span class="featured-badge">⭐ Más Popular</span>
+          </div>
+        </div>
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <span class="post-date">15 Septiembre 2024</span>
+            <span class="post-category">Deep Learning</span>
+            <span class="reading-time">15 min</span>
+          </div>
+          
+          <h3>Deep CNN para Análisis de Sentimientos: Procesando 1.6M Tweets</h3>
+          
+          <p class="post-excerpt">
+            Análisis técnico completo de mi arquitectura CNN que alcanzó 85%+ de precisión en clasificación de sentimientos. 
+            Incluye preprocessing, data augmentation, transfer learning y deployment en producción.
+          </p>
+          
+          <div class="post-tags">
+            <span class="tag">TensorFlow</span>
+            <span class="tag">CNN</span>
+            <span class="tag">NLP</span>
+            <span class="tag">Production</span>
+          </div>
+          
+          <div class="post-stats">
+            <span class="stat">👁️ 2.3K vistas</span>
+            <span class="stat">💬 48 comentarios</span>
+            <span class="stat">⭐ 4.8/5</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="post-card featured" data-category="business">
+        <div class="post-image">
+          <div class="post-placeholder" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+            <div class="post-icon">📊</div>
+          </div>
+          <div class="post-overlay">
+            <span class="featured-badge">💰 ROI Case</span>
+          </div>
+        </div>
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <span class="post-date">8 Septiembre 2024</span>
+            <span class="post-category">Business Analytics</span>
+            <span class="reading-time">12 min</span>
+          </div>
+          
+          <h3>Suite de 6 Proyectos: $2M+ ROI en Analytics Empresarial</h3>
+          
+          <p class="post-excerpt">
+            Case study detallado de cómo diseñé e implementé soluciones de ML para 6 departamentos diferentes, 
+            generando ROI medible y transformando procesos operativos clave.
+          </p>
+          
+          <div class="post-tags">
+            <span class="tag">Business Intelligence</span>
+            <span class="tag">ROI</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Time Series</span>
+          </div>
+          
+          <div class="post-stats">
+            <span class="stat">👁️ 1.8K vistas</span>
+            <span class="stat">💬 32 comentarios</span>
+            <span class="stat">⭐ 4.9/5</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="series" class="blog-series fade-in-scroll">
+    <div class="section-header">
+      <h2>📚 Series Especializadas</h2>
+      <p>Colecciones temáticas para dominar aspectos específicos de Data Science.</p>
+    </div>
+    
+    <div class="series-grid">
+      
+      <div class="series-card">
+        <div class="series-icon">🧠</div>
+        <h3>Deep Learning in Production</h3>
+        <p class="series-description">
+          Serie completa sobre implementación de modelos de DL en entornos productivos, desde entrenamiento hasta deployment escalable.
+        </p>
+        <div class="series-stats">
+          <span class="series-posts">8 artículos</span>
+          <span class="series-level">Avanzado</span>
+        </div>
+        <div class="series-topics">
+          <span class="topic">MLOps</span>
+          <span class="topic">Docker</span>
+          <span class="topic">Kubernetes</span>
+          <span class="topic">Monitoring</span>
+        </div>
+      </div>
+
+      <div class="series-card">
+        <div class="series-icon">📈</div>
+        <h3>Business Analytics Masterclass</h3>
+        <p class="series-description">
+          Metodologías probadas para convertir datos empresariales en ventaja competitiva. Casos reales con métricas de ROI.
+        </p>
+        <div class="series-stats">
+          <span class="series-posts">6 artículos</span>
+          <span class="series-level">Intermedio</span>
+        </div>
+        <div class="series-topics">
+          <span class="topic">Strategy</span>
+          <span class="topic">KPIs</span>
+          <span class="topic">A/B Testing</span>
+          <span class="topic">ROI</span>
+        </div>
+      </div>
+
+      <div class="series-card">
+        <div class="series-icon">👁️</div>
+        <h3>Computer Vision Aplicada</h3>
+        <p class="series-description">
+          Desde detección de objetos hasta segmentación semántica. Implementaciones prácticas para industria y automatización.
+        </p>
+        <div class="series-stats">
+          <span class="series-posts">5 artículos</span>
+          <span class="series-level">Intermedio</span>
+        </div>
+        <div class="series-topics">
+          <span class="topic">CNN</span>
+          <span class="topic">YOLO</span>
+          <span class="topic">Segmentation</span>
+          <span class="topic">Quality Control</span>
+        </div>
+      </div>
+
+      <div class="series-card">
+        <div class="series-icon">🛠️</div>
+        <h3>MLOps & Infrastructure</h3>
+        <p class="series-description">
+          Construcción de pipelines robustos, CI/CD para ML, monitoreo de modelos y arquitecturas cloud-native escalables.
+        </p>
+        <div class="series-stats">
+          <span class="series-posts">7 artículos</span>
+          <span class="series-level">Avanzado</span>
+        </div>
+        <div class="series-topics">
+          <span class="topic">CI/CD</span>
+          <span class="topic">AWS</span>
+          <span class="topic">Terraform</span>
+          <span class="topic">Monitoring</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="recent-posts fade-in-scroll">
+    <div class="section-header">
+      <h2>✨ Publicaciones Recientes</h2>
+      <p>Los últimos insights y análisis técnicos de la biblioteca.</p>
+    </div>
+    
+    <div class="posts-grid">
+      
+      <article class="post-card" data-category="mlops">
+        <div class="post-content">
+          <div class="post-meta">
+            <span class="post-date">28 Agosto 2024</span>
+            <span class="post-category">MLOps</span>
+            <span class="reading-time">8 min</span>
+          </div>
+          
+          <h3>Monitoreo de Model Drift en Producción con MLflow</h3>
+          
+          <p class="post-excerpt">
+            Implementación práctica de sistemas de alertas para detectar degradación de performance en modelos de ML usando MLflow y Grafana.
+          </p>
+          
+          <div class="post-tags">
+            <span class="tag">MLflow</span>
+            <span class="tag">Monitoring</span>
+            <span class="tag">Grafana</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="post-card" data-category="tutorials">
+        <div class="post-content">
+          <div class="post-meta">
+            <span class="post-date">22 Agosto 2024</span>
+            <span class="post-category">Tutorial</span>
+            <span class="reading-time">10 min</span>
+          </div>
+          
+          <h3>Transfer Learning con Transformers: Fine-tuning BERT para Clasificación</h3>
+          
+          <p class="post-excerpt">
+            Tutorial step-by-step para adaptar modelos pre-entrenados de Hugging Face a tareas específicas de clasificación de texto.
+          </p>
+          
+          <div class="post-tags">
+            <span class="tag">BERT</span>
+            <span class="tag">Transformers</span>
+            <span class="tag">Fine-tuning</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="post-card" data-category="business">
+        <div class="post-content">
+          <div class="post-meta">
+            <span class="post-date">18 Agosto 2024</span>
+            <span class="post-category">Business</span>
+            <span class="reading-time">6 min</span>
+          </div>
+          
+          <h3>ROI Calculator para Proyectos de IA: Framework de Evaluación</h3>
+          
+          <p class="post-excerpt">
+            Metodología probada para estimar y medir el retorno de inversión en iniciativas de inteligencia artificial empresarial.
+          </p>
+          
+          <div class="post-tags">
+            <span class="tag">ROI</span>
+            <span class="tag">Strategy</span>
+            <span class="tag">Framework</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="post-card" data-category="deep-learning">
+        <div class="post-content">
+          <div class="post-meta">
+            <span class="post-date">12 Agosto 2024</span>
+            <span class="post-category">Deep Learning</span>
+            <span class="reading-time">14 min</span>
+          </div>
+          
+          <h3>Architecture Deep Dive: ResUNet para Segmentación Industrial</h3>
+          
+          <p class="post-excerpt">
+            Análisis detallado de la arquitectura ResUNet implementada para detección de defectos en manufactura, con 94% de IoU.
+          </p>
+          
+          <div class="post-tags">
+            <span class="tag">ResUNet</span>
+            <span class="tag">Segmentation</span>
+            <span class="tag">Industry 4.0</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="post-card" data-category="tutorials">
+        <div class="post-content">
+          <div class="post-meta">
+            <span class="post-date">5 Agosto 2024</span>
+            <span class="post-category">Tutorial</span>
+            <span class="reading-time">12 min</span>
+          </div>
+          
+          <h3>Feature Engineering Avanzado: Técnicas para Time Series</h3>
+          
+          <p class="post-excerpt">
+            Guía completa de ingeniería de features para datos temporales: rolling statistics, fourier transforms, lag features y detección de patrones.
+          </p>
+          
+          <div class="post-tags">
+            <span class="tag">Time Series</span>
+            <span class="tag">Feature Engineering</span>
+            <span class="tag">Python</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="post-card" data-category="mlops">
+        <div class="post-content">
+          <div class="post-meta">
+            <span class="post-date">30 Julio 2024</span>
+            <span class="post-category">MLOps</span>
+            <span class="reading-time">9 min</span>
+          </div>
+          
+          <h3>CI/CD Pipeline para ML: GitHub Actions + AWS SageMaker</h3>
+          
+          <p class="post-excerpt">
+            Implementación de pipeline automatizado para entrenamiento, testing y deployment de modelos usando GitHub Actions y AWS SageMaker.
+          </p>
+          
+          <div class="post-tags">
+            <span class="tag">GitHub Actions</span>
+            <span class="tag">AWS SageMaker</span>
+            <span class="tag">CI/CD</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="newsletter-section fade-in-scroll">
+    <div class="card" style="background: var(--primary-gradient); color: white; text-align: center;">
+      <h2>🚀 Mantente al Día</h2>
+      <p class="newsletter-description">
+        Recibe notificaciones cuando publique nuevos artículos técnicos, case studies y tutoriales avanzados. 
+        <strong>Sin spam, solo contenido de valor.</strong>
+      </p>
+      
+      <div class="newsletter-stats">
+        <div class="newsletter-stat">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Suscriptores</span>
+        </div>
+        <div class="newsletter-stat">
+          <span class="stat-number">1-2</span>
+          <span class="stat-label">Emails/mes</span>
+        </div>
+        <div class="newsletter-stat">
+          <span class="stat-number">4.9/5</span>
+          <span class="stat-label">Rating</span>
         </div>
       </div>
       
-      <div class="post-content">
-        <div class="post-meta">
-          <span class="post-date">15 de Septiembre, 2024</span>
-          <span class="post-category">Deep Learning</span>
-          <span class="reading-time">12 min lectura</span>
-        </div>
-        
-        <h2><a href="/blog/deep-cnn-sentiment-analysis/">Análisis Profundo: CNN para Sentiment Analysis en Twitter</a></h2>
-        
-        <p class="post-excerpt">
+      <div class="newsletter-form">
+        <p>¿Interesado en colaborar o discutir algún tema específico?</p>
+        <a href="./contact" class="btn btn-white">Iniciar Conversación</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<style>
+.blog-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+  justify-content: center;
+}
+
+.category-filter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  background: var(--bg-white);
+  border: 2px solid var(--border-light);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: var(--transition);
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.category-filter:hover,
+.category-filter.active {
+  background: var(--primary-gradient);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.category-icon {
+  font-size: 1.2rem;
+}
+
+.posts-featured {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.post-card {
+  background: var(--bg-white);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-light);
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.post-card.featured {
+  border: 2px solid var(--primary-color);
+}
+
+.post-image {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.post-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-icon {
+  font-size: 3rem;
+  color: white;
+}
+
+.post-overlay {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.featured-badge {
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--primary-color);
+  padding: 0.4rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  backdrop-filter: blur(10px);
+}
+
+.post-content {
+  padding: 2rem;
+}
+
+.post-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.post-category {
+  background: var(--bg-light);
+  padding: 0.2rem 0.6rem;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.post-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+.post-excerpt {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  background: var(--primary-gradient);
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.post-stats {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  border-top: 1px solid var(--border-light);
+  padding-top: 1rem;
+}
+
+.series-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.series-card {
+  background: var(--bg-white);
+  padding: 2.5rem;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-light);
+  text-align: center;
+  transition: var(--transition);
+}
+
+.series-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.series-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.series-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.series-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.series-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: var(--bg-light);
+  border-radius: var(--border-radius);
+}
+
+.series-posts,
+.series-level {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.series-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.topic {
+  background: linear-gradient(135deg, var(--bg-light), #e2e8f0);
+  color: var(--text-primary);
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.newsletter-section {
+  margin: 4rem 0;
+}
+
+.newsletter-description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.newsletter-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+
+.newsletter-stat {
+  text-align: center;
+}
+
+.newsletter-stat .stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.newsletter-stat .stat-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.newsletter-form {
+  margin-top: 2rem;
+}
+
+.newsletter-form p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .posts-featured,
+  .posts-grid,
+  .series-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .newsletter-stats {
+    gap: 2rem;
+  }
+  
+  .post-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .blog-categories {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+  }
+}
+</style>
           Desglose técnico completo de mi implementación de CNN para análisis de sentimientos. 
           Desde la arquitectura multi-escala hasta las técnicas de regularización que permitieron 
           alcanzar 85%+ de precisión en 1.6M tweets. Incluye código, visualizaciones y 
